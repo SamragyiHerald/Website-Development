@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.splitBlock{
+    display: flex;
+}
+.left-col{
+    width: 50%;
+    background-color: chocolate;
+    padding: 5%;
+    color: #ffffff;
+}
+h1{
+    font-size: 50px;
+    line-height: 1.1;
+    margin-bottom: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h2{
+    margin-bottom: 100px;
+    font-weight: 200;
+}
+.right-col{
+    width: 50%;
+}
+figure{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.botton{
+    margin-top: 20px;
+}
+.button a{
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: darkmagenta;
+    border-radius: 30px;
+    text-decoration: none;
+    color:black;
+    font-size: 18px;
+    line-height: 1.4;
+    font-weight: 800;
+    transition: all 0.5s ease;
+}
+.button a:hover{
+    background: black;
+    color: darkmagenta;
+}
+@media screen and(max-width: 770px;){
+    .content-wrapper{
+        padding-bottom: 50px;
+    }
+  .left-col,
+  .right-col{
+    width: 100%;
+  }
+  }  
+  @media screen and (max-width: 420px) {
+    .button a {
+      text-align: center;
+    }
+  }

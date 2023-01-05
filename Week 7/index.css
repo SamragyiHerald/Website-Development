@@ -1,0 +1,75 @@
+:root{
+    --breed: pink;
+    --name: brown;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.pixels{
+    width: 600px;
+    height: 600px;
+    background-color:var(--breed);
+}
+.percent{
+    width: 100%;
+    background-color: bisque;
+}
+.container{
+    font-size: 24px;
+}
+.emphemeral{
+    font-size: 3em;
+}
+.relative{
+    font-size: 2rem;
+}
+.viewportheight{
+    height: 100vh;
+    background-color: lightcoral;
+}
+.viewportwidth{
+    width: 100vw;
+    background-color: coral;
+}
+button{
+    padding: 20px;
+    background-color: var(--name);
+    border: none;
+    font-size: 24px;
+    color: white;
+    margin: 40px;
+    border-radius: 20px;
+}
+button:hover{
+    background-color: black;
+    color:blue;
+}
+.img{
+    background-image: url(../turner.jpg);
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.parent{
+    background-color: blueviolet;
+    height: 600px;
+    width: 100%;
+    padding: 30px;
+}
+.childOne{
+    background-color: lightseagreen;
+    position: sticky;
+    top: 20px;
+    bottom: 20px;
+    right: 20px;
+    left: 20px;
+}
+.childTwo{
+    background-color: lightslategray;
+}
+.childThree{
+    background-color: darkkhaki;
+}
